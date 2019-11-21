@@ -17,7 +17,7 @@ def load_data(path='imdb.npz', num_words=None, skip_top=0,
     """Loads the IMDB dataset.
 
     # Arguments
-        path: where to cache the data (relative to `~/.keras/dataset`).
+        path: where to cache the data (relative to `~/.keras/datasets`).
         num_words: max number of words to include. Words are ranked
             by how often they occur (in the training set) and only
             the most frequent words are kept
